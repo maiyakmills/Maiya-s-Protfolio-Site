@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    .main {background:white;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 0.5fr auto auto;
+            grid-template-areas:
+            "hd hd"
+            "nb nb"
+            "sd ct"
+            "ft ft";}
+     .header {width: 100%;}
+.content{width: 100%;}       
+}
+
+@media screen and (max-width: 480px){
+.main {background:white;
+       grid-template-columns: 100%;
+       grid-template-rows: 1fr 0.5fr 1fr auto auto auto;
+       grid-template-areas:
+       "hd"
+       "nb"
+       "sd"
+       "ct"
+       "ct"
+       "ft";}
+.header {width: 480px;}       
+.content {width: 100%;}   
+}
+

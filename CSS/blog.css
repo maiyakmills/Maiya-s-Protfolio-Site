@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marcellus&display=swap');
+
+.main {display: grid;
+    grid-template-columns: repeat (3 1fr);
+    grid-template-rows:  1fr auto auto auto;
+    grid-template-areas:
+    "hd hd hd"
+    "nb nb nb"
+    "ct ct ct"
+    "av av av"
+    "sd sd sd"
+    "ft ft ft";
+}
+.header {
+      grid-area: hd;     
+} 
+.content {grid-area: ct;
+          padding: 20px;
+}
+.avatar {grid-area: av;}
+.sidebar{
+         grid-area: sd;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: auto;
+         gap: 25px;
+         padding: 30px;
+        
+}
+.footer {text-align: center;
+         grid-area: ft;
+         font: bold 20px 'Architects Daughter', sans-serif;
+}
+.navbar{
+    grid-area: nb;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+button {padding: 15px;
+    margin: 10px;
+    background-color: #bc9c22;
+    border-radius: 20px;
+    border: none;
+    font: bold 24px 'Send Flowers', sans-serif;
+}
+button:hover {opacity: 0.7;
+}
+
+.socials {display: flex;
+      justify-content: right;
+      align-items:center
+}
+
+.fa-facebook {background: #3B5998;
+              color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-github {background: black;
+        color: white;
+} 
+.fa-envelope {background:#bc9c22;
+          color: black;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-link {background: #bc9c22;
+          color: black;
+}       
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {margin: 2px 3px;
+ border-radius: 50%;
+ width: 15px;
+ height: 15px;
+ font-size: 20px;
+ text-align: center;
+ padding: 10px 10px;
+  
+}
+
+img {max-width: 100%
+     
+}
+a {text-decoration: none;
+}
+a:hover{opacity: 0.6;
+}
+.headerimg {max-width: 100%;}    
+
+.previewone{border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #bc9c22;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center 
+}
+.previewone:hover{opacity: 0.6;
+}
+.previewtwo{border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #bc9c22;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center   
+}
+.previewtwo:hover{opacity: 0.6;
+}
+.previewthree{border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #bc9c22;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.previewthree:hover{opacity: 0.6;
+}
+.onethumb {padding: 5px;
+    width: 200px;
+    
+}
+.twothumb{padding: 5px;
+    width: 200px;
+    
+} 
+.fourthumb{padding: 5px;
+    width: 200px;
+
+}
+p {font: 18px 'Architects Daughter', sans-serif;
+     
+}
+h1 {text-align: center;
+    font: bold 30px 'Send Flowers', sans-serif;    
+  }
+h2 {text-align: center;
+      font: 18px 'Architects Daughter', sans-serif;    
+}
+.pt {text-align: center;
+font: bold 54px 'Send Flowers', sans-serif; }
+.sub {text-align: center;
+    font: 30px 'Architects Daughter', sans-serif;    
+}
+.fcc {width: 450px;
+      float: right
+
+}
+.fcc:hover {opacity: 0.6;}
+.avatarimg {width: 60px;
+            border-radius: 50%;
+            vertical-align: middle;
+            
+}
+.avtxt {font: 20px 'Marcellus', sans-serif;
+        text-decoration: none;
+        color: black;
+        
+} 
+.bio{font: bold 24px 'Marcellus', sans-serif;
+     text-decoration: underline;
+     letter-spacing: 4px;
+} 
+.bio2 {font: 16px 'Marcellus', sans-serif;}  

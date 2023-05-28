@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+
+.one {border: 1px solid rgba(0, 0, 0, 0.116);
+      border-radius: 20px;
+      box-shadow: 10px 5px 10px #bc9c22;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      
+}
+.one:hover{opacity: 0.8;
+
+}
+.two {border: 1px solid rgba(0, 0, 0, 0.116);
+      border-radius: 20px;
+      box-shadow: 10px 5px 10px #bc9c22;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+      
+}
+.two:hover{opacity: 0.8;
+
+
+}
+.three{border: 1px solid rgba(0, 0, 0, 0.116);
+      border-radius: 20px;
+      box-shadow: 10px 5px 10px #bc9c22;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+       
+}
+.three:hover{opacity: 0.8;
+
+}
+.four {border: 1px solid rgba(0, 0, 0, 0.116);
+      border-radius: 20px;
+      box-shadow: 10px 5px 10px #bc9c22;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+       
+}
+.four:hover{opacity: 0.8;
+
+}
+h1 {text-align: center;
+    font: 24px 'Send Flowers', sans-serif;    
+  }
+h2 {text-align: center;
+      font: 22px 'Architects Daughter', sans-serif;    
+}
+.onethumb {padding: 5px;
+      width: 200px;
+      
+}
+.twothumb{padding: 5px;
+      width: 200px;
+      
+} 
+.threethumb{padding: 5px;
+      width: 200px;
+
+}
+.fourthumb{padding: 5px;
+      width: 200px;
+
+}
+p {font: 14px 'Architects Daughter', sans-serif;
+     
+}

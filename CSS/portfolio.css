@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+
+
+.main {display: grid;
+    grid-template-columns: repeat (3 1fr);
+    grid-template-rows: 1fr auto auto 3fr;
+    gap: 10px;
+    grid-template-areas:
+    "hd hd hd"
+    "nb nb nb"
+    "bio bio bio"
+    "ct ct ct"
+    "ft ft ft";
+}
+.header {
+      grid-area: hd;     
+} 
+.bio {grid-area: bio;}
+.content {grid-area: ct;
+}
+.footer {text-align: center;
+      grid-area: ft;
+      font: bold 20px 'Architects Daughter', sans-serif;
+}
+img {max-width: 100%
+     
+}
+.headerimg {max-width: 100%;}    
+
+button {padding: 15px;
+      margin: 10px;
+      background-color: #bc9c22;
+      border-radius: 20px;
+      border: none;
+      font: bold 24px 'Send Flowers', sans-serif;
+  }
+  button:hover {opacity: 0.7;
+  }
+  a {text-decoration: none;
+  }
+  a:hover{opacity: 0.6;
+  }
+  .socials {display: flex;
+        justify-content: right;
+        align-items:center
+  }
+.navbar{grid-area: nb;
+        display: flex;
+        justify-content: space-between;
+}
+.socials {display: flex;
+          justify-content: right;
+          align-items: center;
+}
+
+.fa-facebook {background: #3B5998;
+        color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {background: black;
+      color: white;
+} 
+.fa-envelope {background:#bc9c22;
+        color: black;
+}         
+.fa:hover {
+  opacity: 0.7;
+}
+.fa {margin: 2px 3px;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+font-size: 20px;
+text-align: center;
+padding: 10px 10px;
+
+}
+p {font: 18px 'Architects Daughter', sans-serif;
+     
+}
+h1 {text-align: center;
+    font: bold 30px 'Send Flowers', sans-serif;    
+  }
+h2 {text-align: center;
+      font: 18px 'Architects Daughter', sans-serif;    
+}
