@@ -148,7 +148,8 @@ h2 {text-align: center;
       font: 18px 'Architects Daughter', sans-serif;    
 }
 .pt {text-align: center;
-font: bold 54px 'Send Flowers', sans-serif; }
+font: bold 54px 'Send Flowers', sans-serif; 
+}
 .sub {text-align: center;
     font: 30px 'Architects Daughter', sans-serif;    
 }
@@ -156,11 +157,13 @@ font: bold 54px 'Send Flowers', sans-serif; }
       padding: 15px;
 
 }
-.fcc:hover {opacity: 0.6;}
+.fcc:hover {opacity: 0.6;
+}
 .avatarimg {width: 60px;
             border-radius: 50%;
             vertical-align: middle;
-            
+            margin: 5px;
+            padding: 5px;
 }
 .avtxt {font: 20px 'Marcellus', sans-serif;
         text-decoration: none;
@@ -171,8 +174,10 @@ font: bold 54px 'Send Flowers', sans-serif; }
      text-decoration: underline;
      letter-spacing: 4px;
 } 
-.bio2 {font: 16px 'Marcellus', sans-serif;}  
+.bio2 {font: 16px 'Marcellus', sans-serif;
+}  
 
 .fcccap {font: 12px 'Marcellus', sans-serif;
 }
-.feature {font: 12px 'Marcellus', sans-serif;}
+.feature {font: 12px 'Marcellus', sans-serif;
+}
