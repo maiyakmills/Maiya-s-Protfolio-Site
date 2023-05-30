@@ -2,8 +2,7 @@
 @import url('CSS\media queries.css');
 @import url('https://fonts.googleapis.com/css?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css?family=Marcellus&display=swap');
 
 .main {display: grid;
        grid-template-columns: repeat (3 1fr);
@@ -108,20 +107,4 @@ h1 {text-align: center;
 h2 {text-align: center;
       font: 18px 'Architects Daughter', sans-serif;    
 }
-
-@media screen and (max-width: 768px){
-        .main {background:white;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: auto;
-                grid-template-areas:
-                "hd hd"
-                "nb nb"
-                "sd sd"
-                "ct ct"
-                "ct ct"
-                "ft ft";}
-         .header {width: 100%;}
-         .content{width: 100%;}       
-                   
-}
-
+.headcap {font: 12px 'Marcellus', sans-serif;}

@@ -152,8 +152,8 @@ font: bold 54px 'Send Flowers', sans-serif; }
 .sub {text-align: center;
     font: 30px 'Architects Daughter', sans-serif;    
 }
-.fcc {width: 450px;
-      float: right
+.fcc {float: left;
+      padding: 15px;
 
 }
 .fcc:hover {opacity: 0.6;}
@@ -167,8 +167,12 @@ font: bold 54px 'Send Flowers', sans-serif; }
         color: black;
         
 } 
-.bio{font: bold 24px 'Marcellus', sans-serif;
+.bio{font: bold 26px 'Marcellus', sans-serif;
      text-decoration: underline;
      letter-spacing: 4px;
 } 
 .bio2 {font: 16px 'Marcellus', sans-serif;}  
+
+.fcccap {font: 12px 'Marcellus', sans-serif;
+}
+.feature {font: 12px 'Marcellus', sans-serif;}
